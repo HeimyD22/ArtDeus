@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+  }
+
+  .row::after {
+    /*Para que no se vea los borde del grid*/
+    content: ""; /*borra la parte del flujo, para que se ubiquen automaticamente en las columnas*/
+    clear: both; /**/
+    display: table; /**/
+  }
+
+  [class*="col-"] {
+    float: left; /*Floten a la izquierda*/
+    padding: 15px;
+  }
+html{
+    font-family:Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+    margin-top: 3%;
+    
+}
+.inicio {
+    background-color: blanchedalmond;
+    padding: 1%;
+}
+ footer{
+    background-color: blanchedalmond;
+    padding: 0.5%;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+img{
+    display: block;
+    margin: 0% auto;
+    width: 100%;
+}
+.img2{
+width: 100%;
+}
+.img3{
+    width: 100%;
+    }
+h3{
+    text-align: center;
+    background-color: antiquewhite;
+}
+/*Para telefonos moviles*/
+.col-s-1 {
+    width: 8.33%;
+  }
+  .col-s-2 {
+    width: 16.66%;
+  } /*2*/
+  .col-s-3 {
+    width: 25%;
+  }
+  .col-s-4 {
+    width: 33.33%;
+  }
+  .col-s-5 {
+    width: 41.66%;
+  }
+  .col-s-6 {
+
+    width: 50%;
+  }
+  .col-s-7 {
+    width: 58.33%;
+  }
+  .col-s-8 {
+    width: 66.66%;
+  }
+  .col-s-9 {
+    width: 75%;
+  }
+  .col-s-10 {
+    width: 83.33%;
+  }
+  .col-s-11 {
+    width: 91.66%;
+  }
+  .col-s-12 {
+    width: 100%;
+  } 
+@media only screen and (min-width: 768px) {
+    /*para Escritorio*/
+    .col-1 {
+        width: 8.33%;
+      } /*100/12*/
+      .col-2 {
+        width: 16.66%;
+      } /*8.33*2*/
+      .col-3 {
+        width: 25%;
+      }
+      .col-4 {
+        width: 33.33%;
+      }
+      .col-5 {
+        width: 41.66%;
+      }
+      .col-6 {
+        width: 50%;
+      }
+      .col-7 {
+        width: 58.33%;
+      }
+      .col-8 {
+        width: 66.66%;
+      }
+      .col-9 {
+        width: 75%;
+      }
+      .col-10 {
+        width: 83.33%;
+      }
+      .col-11 {
+        width: 91.66%;
+      }
+      .col-12 {
+        width: 100%;
+      }
+      h1{
+        text-align: center;
+        margin-top: 3%;
+        
+    }
+    .inicio {
+        background-color: blanchedalmond;
+        padding: 1%;
+    }
+     footer{
+        background-color: blanchedalmond;
+        padding: 0.5%;
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+    }
+    img{
+        display: block;
+        margin: 0% auto;
+        width: auto;
+    }
+    .img2{
+    width: 50%;
+    }
+    .img3{
+        width: 50%;
+        }
+        h4{
+            text-align: center;
+        }
+        h3{
+            font-size: 140%;
+        }
+    
+}
